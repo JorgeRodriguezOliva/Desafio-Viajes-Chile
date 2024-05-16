@@ -11,12 +11,28 @@ header {}
 
 /* Tarjetas */
 
-.card img{
-height: 10rem;
+.conraya {
+        border-bottom: 1px solid darkgray;
+    padding-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+margin-top: 2rem;
 }
 
+.card img {
+    height: 10rem;
+}
 
+.card-body {
+    background-color: aqua;
+}
 
+/* CONTACTO */
+
+.contact{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* Footer */
 
@@ -27,13 +43,11 @@ height: 10rem;
     align-items: center;
 }
 
-.footertexto {
-
-}
+.footertexto {}
 
 .footericonos {
     color: white;
     align-items: end;
-    justify-content: end;git 
-    align-content: end;
+    justify-content: end;
+    git align-content: end;
 }
