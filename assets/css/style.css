@@ -1,12 +1,39 @@
-body{
+body {
     background-color: black;
     color: white;
 }
 
-.navbar {
-    
-    }
+.navbar {}
 
-    header{
+header {}
 
-    }
+
+
+/* Tarjetas */
+
+.card img{
+height: 10rem;
+}
+
+
+
+
+/* Footer */
+
+.footerflex {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footertexto {
+
+}
+
+.footericonos {
+    color: white;
+    align-items: end;
+    justify-content: end;git 
+    align-content: end;
+}
