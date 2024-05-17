@@ -18,7 +18,7 @@ header {}
 
 /* Quiénes somos */
 
-.icotext{
+.icotext {
     background-color: aqua;
     width: 100%;
     text-align: center;
@@ -29,11 +29,11 @@ header {}
 /* Tarjetas */
 
 .conraya {
-        border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
     padding-bottom: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
-margin-top: 2rem;
+    margin-top: 2rem;
 }
 
 .card img {
@@ -47,7 +47,7 @@ margin-top: 2rem;
 
 /* CONTACTO */
 
-.contact{
+.contact {
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -61,11 +61,13 @@ margin-top: 2rem;
     align-items: center;
 }
 
-.footertexto {}
+
+.footertexto {
+    text-decoration: none;
+    
+   }
 
 .footericonos {
-    color: white;
-    align-items: end;
-    justify-content: end;
-    git align-content: end;
+
+    
 }

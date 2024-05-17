@@ -34,7 +34,6 @@
         <div class="container-fluid mx-5 px-4">
             <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="viajes chile" height="60"></a>
             <h1 style="color: white;">Viajes Chile</h1>
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -82,7 +81,7 @@
         </div>
     </header>
     <!-- Sección de iconos -->
-    <section id="somos">
+    <section id="somos" class="d-none d-md-block">
         <h2 class="conraya text-center">¿QUIÉNES SOMOS?</h2>
         <div class="container">
             <div class="row mt-5">
@@ -135,8 +134,9 @@
             <div class="row row-cols-12 row-cols-md-3 g-4">
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <a id="txtbtn1" href="#linkdestacados"><img src="assets/img/card1.jpg" class="card-img-top"
+                                alt=""></a>
+                        <div id="ocultar1" class="card-body">
                             <h5 class="card-title">Lorem ipsum dolor sir amet</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -145,8 +145,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <a id="txtbtn2" href="#linkdestacados"><img src="assets/img/card2.jpg" class="card-img-top"
+                                alt=""></a>
+                        <div id="ocultar2" class="card-body">
                             <h5 class="card-title">Consectetur adipisicind elit</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.
@@ -156,8 +157,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <a id="txtbtn3" href="#linkdestacados"><img src="assets/img/card3.jpg" class="card-img-top"
+                                alt=""></a>
+                        <div id="ocultar3" class="card-body">
                             <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -166,8 +168,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="card">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
+                        <a id="txtbtn4" href="#linkdestacados"><img src="assets/img/card4.jpg" class="card-img-top"
+                                alt=""></a>
+                        <div id="ocultar4" class="card-body">
                             <h5 class="card-title">Ut enim ad minim veniam</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -196,8 +199,8 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
                 <div class="d-grid gap-2 d-md-flex">
-                    <button class="btn btn-lg my-5" type="button"
-                        style="color: white; background-color: aqua; ">Enviar</button>
+                    <button class="btn btn-lg my-5" type="button" style="color: white; background-color: aqua; "
+                        onclick="alerta()">Enviar</button>
                 </div>
             </form>
         </div>
@@ -205,33 +208,34 @@
     <!-- Foooooooter  <i class="fa-brands fa-square-facebook-->
     <footer>
         <div class="footerflex">
-            <div class="footertexto h3 mt-3">
-                <p>VIAJES CHILE</p>
+            <div class="footerdiv  mt-3">
+                <a href="#inicio" class="footertexto h3 ">
+                    <p>VIAJES CHILE</p>
+                </a>
             </div>
             <div class="footericonos ">
-                <a href="https://github.com">
+                <a id="uno" href="https://github.com" data-toggle="tooltip" data-placement="top" title="Mi GitHub">
                     <i class="fab fa-github-square fa-2x px-2" style="color: white;"></i>
                 </a>
-                <a href="https://www.linkedin.com">
+                <a id="dos" href="https://www.linkedin.com" data-toggle="tooltip" data-placement="top" title="Mi linkedIn">
                     <i class="fab fa-linkedin fa-2x px-2" style="color: white;"></i>
                 </a>
-                <a href="https://twitter.com/?lang=es">
+                <a id="tres" href="https://twitter.com/?lang=es" data-toggle="tooltip" data-placement="top" title="Twitter">
                     <i class="fab fa-twitter-square fa-2x px-2" style="color: white;"></i>
                 </a>
-                <a href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr">
+                <a id="cuatro" href="https://web.facebook.com/?locale=es_LA&_rdc=1&_rdr" data-toggle="top" data-placement="bottom" title="Facebook">
                     <i class="fa-brands fa-square-facebook fa-2x px-2" style="color: white;"></i>
                 </a>
             </div>
         </div>
     </footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="assets/js/index.js"></script>
-
 </body>
-
 </html>
