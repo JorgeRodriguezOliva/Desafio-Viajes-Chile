@@ -22,10 +22,18 @@ $(document).ready(function () {
   new bootstrap.Tooltip(bttnDos);
   new bootstrap.Tooltip(bttnTres);
   new bootstrap.Tooltip(bttnCuatro);
-
-
-
 })
+
+$(document).scroll(function(){
+console.log($("#barra").offset().top);
+
+if ($("#barra").offset().top > 800){
+  $("#barra").addClass("bg-dark");
+} else {
+  $("#barra").removeClass("bg-dark");
+}
+});
+
 
 function alerta(evento) {
     event.preventDefault();

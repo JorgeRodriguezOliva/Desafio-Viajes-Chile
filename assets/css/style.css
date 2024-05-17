@@ -4,17 +4,12 @@ body {
     font-family: "Manrope", sans-serif;
 }
 
+/* barra de navegación */
+
 .navbar {}
-
-header {}
-
 
 /* Carrusel */
 
-.imgcarru {
-    /* height: 55rem;
-    width: 55rem; */
-}
 
 /* Quiénes somos */
 
@@ -61,13 +56,12 @@ header {}
     align-items: center;
 }
 
-
 .footertexto {
     text-decoration: none;
     
    }
 
-.footericonos {
+.bg-dark {
+    transition: all 1s ease;
 
-    
 }
