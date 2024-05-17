@@ -1,6 +1,7 @@
 # ViajesChile
 Desafio Viajes Chile
 
+GitHub: https://github.com/JorgeRodriguezOliva
 Git pages: https://jorgerodriguezoliva.github.io/Desafio-Viajes-Chile/
 
 La agencia Viajes Chile solicita la creación de su landing page, que tenga un diseño atractivo
